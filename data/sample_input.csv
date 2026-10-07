@@ -1,0 +1,15 @@
+id,name,status,updated_at
+rec-001,Alpha Corp (FILE newer),active,2026-01-20T00:00:00Z
+rec-002,Beta LLC (FILE old),active,2026-01-05T00:00:00Z
+rec-006,Zeta Partners (FILE),active,2026-01-13T15:00:00Z
+rec-006,Zeta Partners (FILE),active,2026-01-13T15:00:00Z
+rec-015,Omicron Works,active,2026-01-16T09:00:00Z
+
+rec-016,,active,2026-01-14T10:00:00Z
+rec-017,Pi Group,active,not-a-real-date
+,Orphan Name,active,2026-01-01T00:00:00Z
+rec-018,"Rho, Inc.",active,2026-01-17T00:00:00Z
+rec-019,Sigma Systems,unknown-status,2026-01-15T11:00:00Z
+rec-020,Tau Short Row,active
+rec-021,Upsilon Extra,active,2026-01-18T00:00:00Z,unexpected-extra-column
+rec-022,Ünïcödé 株式会社,active,2026-01-19T00:00:00Z

@@ -1,0 +1,27 @@
+---------- coverage: platform linux, python 3.12.3-final-0 -----------
+Name                             Stmts   Miss  Cover   Missing
+--------------------------------------------------------------
+src/__init__.py                      0      0   100%
+src/config.py                       33      0   100%
+src/db/__init__.py                   0      0   100%
+src/db/database.py                 109      4    96%   139-140, 147-148
+src/downstream/__init__.py           0      0   100%
+src/downstream/client.py            53      0   100%
+src/fetchers/__init__.py             0      0   100%
+src/fetchers/api_fetcher.py         97      1    99%   174
+src/fetchers/csv_fetcher.py         36      0   100%
+src/main.py                         57      1    98%   63
+src/mock_servers/__init__.py         0      0   100%
+src/mock_servers/data.py            48      0   100%
+src/mock_servers/scenarios.py       14      1    93%   26
+src/mock_servers/transport.py       20      0   100%
+src/mock_servers/world.py           79      0   100%
+src/models.py                      105      3    97%   68, 103-104
+src/pipeline.py                    108      0   100%
+src/processing/__init__.py           0      0   100%
+src/processing/consolidator.py      17      0   100%
+src/retry.py                        29      0   100%
+--------------------------------------------------------------
+TOTAL                              805     10    99%
+
+205 passed in 29.93s

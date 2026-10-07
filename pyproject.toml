@@ -1,0 +1,19 @@
+[project]
+name = "data-integration-service"
+version = "1.0.0"
+description = "Resilient multi-source data integration & processing service"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+pythonpath = ["."]
+testpaths = ["tests"]
+markers = ["slow: larger-scale test (~10k records); deselect with -m 'not slow'"]
+
+[tool.coverage.run]
+source = ["src"]
+omit = ["src/mock_servers/server.py"]
+
+[tool.coverage.report]
+exclude_lines = ["pragma: no cover", "if __name__ == .__main__.:"]
